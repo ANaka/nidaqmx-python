@@ -3,7 +3,7 @@ import deprecation
 
 from nidaqmx.error_codes import DAQmxErrors, DAQmxWarnings
 
-__all__ = ['DaqError', 'DaqReadError', 'DaqWriteError', 'DaqWarning', 'DaqResourceWarning']
+__all__ = ['DaqNotFoundError', 'DaqNotSupportedError', 'DaqFunctionNotSupportedError', 'DaqError', 'DaqReadError', 'DaqWriteError', 'DaqWarning', 'DaqResourceWarning']
 
 
 class Error(Exception):
